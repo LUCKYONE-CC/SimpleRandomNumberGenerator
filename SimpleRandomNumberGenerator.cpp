@@ -27,7 +27,7 @@ int main()
 		if (GetCursorPos(&MousePoint)) {
 
 			seed += MousePoint.x;
-			seed -= MousePoint.y;
+			seed += MousePoint.y;
 			cout << seed << endl;
 		}
 	}
